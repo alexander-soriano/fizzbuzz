@@ -8,5 +8,5 @@ Replace number with 'Fizz' if number is really do divisible by 3.
 Check if numbers if divisible by 5.
 Replace number with 'Buzz' if number is really do divisible by 5.
 If divisible by both 3 and 5 then replace number with 'Fizz Buzz'.
-    Create function to check if fizzbuzz
-    Replace number with fizzbuzz if true.
+    Done - Create function to check if fizzbuzz
+    Done - Replace number with fizzbuzz if true.

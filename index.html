@@ -8,23 +8,26 @@
 </head>
 <body>
     <script>
-        function count(min, max){
-          for (let i=min; i<=max; i++){
-             isFizzBuzz(i);
-          }
-        }
+      let min = prompt('What number we will start?',1);
+      let max = prompt('What number we will end?',100);
+      count(min,max)
 
-        function isFizzBuzz(number){
-          if (number%3==0 && number%5==0){
-            console.log('Fizz Buzz')
-          }if(number%3==0){
-            console.log('Fizz');
-          }else if(number%5==0){
-            console.log('Buzz');
-          }else{
-            console.log(number)
-          }
+      function count(min, max){
+        for (let i=min; i<=max; i++){
+           isFizzBuzz(i);
         }
+      }
+      function isFizzBuzz(number){
+        if (number%3==0 && number%5==0){
+          console.log('Fizz Buzz')
+        }if(number%3==0){
+          console.log('Fizz');
+        }else if(number%5==0){
+          console.log('Buzz');
+        }else{
+          console.log(number)
+        }
+      }
     </script>
 </body>
 </html>
